@@ -1,0 +1,26 @@
+# Etapa 2 (/en tags): de quantos em quantos ticks os caracteres trocam (20 ticks = 1 segundo)
+intervalo-ticks: 4
+
+# Caracteres usados no nick embaralhado
+caracteres: "%#@&$!"
+
+# Tamanho do texto. Se for igual a quantidade de caracteres acima, eles apenas trocam de lugar
+# (ex.: %#@&$! vira &$!@%#). Se for diferente, sorteia caracteres.
+tamanho: 6
+
+# Cor do texto: nome (white, gray, red...) ou hex (#FFFFFF)
+cor: white
+
+# Altura do texto em relacao a cabeca do jogador (blocos). Se ficar muito alto/baixo, ajuste aqui.
+altura-texto: 0.4
+
+mensagens:
+  etapa1-on: "&aSeu nick foi escondido."
+  etapa1-off: "&eSeu nick voltou a aparecer."
+  etapa2-on: "&aSeu nick agora aparece embaralhado."
+  etapa2-off: "&eSeu nick voltou a aparecer."
+  desativado: "&eSeu nick voltou ao normal."
+  sem-permissao: "&cVoce nao tem permissao para usar isso."
+  sem-permissao-removido: "&eVoce perdeu a permissao, seu nick voltou ao normal."
+  reload: "&aConfiguracao recarregada."
+  uso: "&eUse: /en, /en tags, /en off"

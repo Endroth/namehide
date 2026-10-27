@@ -1,0 +1,21 @@
+name: EscondeNick
+version: 1.0
+main: br.escondernick.EscondeNick
+api-version: '26.3'
+softdepend: [LuckPerms]
+description: Esconde o nick (some ou vira caracteres alternando)
+commands:
+  escondernick:
+    description: Esconde o seu nick
+    aliases: [en]
+    usage: /en [tags|off]
+permissions:
+  escondernick.use:
+    description: Etapa 1 - esconder o nick (/en e /escondernick)
+    default: false
+  escondernick.tags:
+    description: Etapa 2 - nick vira caracteres alternando (/en tags)
+    default: false
+  escondernick.admin:
+    description: Recarregar o plugin (/en reload)
+    default: false
